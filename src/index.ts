@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 
 server.listen(5000, () => {
-  console.log("server running on port: 8080");
+  console.log("server running on port: 5000");
 });
 
 mongoose.Promise = Promise;
